@@ -1,0 +1,163 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+     margin: auto;
+    
+}
+
+.header {
+    display: flex;
+    
+}
+
+.top {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 20px;
+    
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    border-radius: 75px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.glasses {
+    width: 400px;
+    height: auto;
+}
+
+.expect {
+    width: 200px;
+    height: auto;
+    border: 4px solid blue;
+    border-radius: 12px;
+    
+    
+}
+
+.head {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    gap: 40px;
+    margin-right: 150px;
+    }
+
+h1 {
+    font-size: 48px;
+    font-weight: #f9faf8;
+}
+
+.header, .top, footer {
+    background-color: #1f2937;
+    color: whitesmoke;
+}
+
+li {
+    font-size: 18px;
+}
+
+button {
+    background-color:  #3882f6;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 24px;
+    border: 2px solid whitesmoke;
+    
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.middle-bottom {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 0;
+    width: 700px;
+    
+    
+}
+
+a {
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 90px;
+}
+
+.box {
+    width: 200px;
+    text-align: center;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: end;
+    margin-right: 240px;
+    margin-top: 0;
+    width: 750px;
+}
+
+.title {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.middle-top {
+
+    width: 700 px;
+
+}
+
+.foot {
+    text-align: center;
+}
+
+.bottom {
+    
+    background-color: #3882f6;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.action {
+    color: whitesmoke;
+    
+}
+
+.bottoms {
+    margin-bottom: 0;
+}
+
+.tops {
+    margin-top: 0;
+}
